@@ -1,9 +1,14 @@
-# my_ai_agentAI Evaluation Framework — Student Academic Support Agent (ADK)
-This repository contains a basic AI agent and an evaluation framework (“AI evals”) to test reliability for key Jobs-to-be-Done (JTBD) in the Academic Support / Student Productivity domain.
+AI Evaluation Framework — Student Academic Support Agent   
+
+Overview
+This repository contains an AI evaluation framework for a student academic support agent focused on academic stress and productivity challenges. The project demonstrates how AI evals can be used to assess not only response correctness, but also emotional safety and real-world usefulness.
 Project Goal
-Building the bot is easy; ensuring it works reliably is hard. This project applies AI Evals as “unit tests” for a student-support agent and demonstrates:
-domain definition + constraints,
-JTBD selection,
-synthetic dataset creation,
-evaluation criteria (Correctness + Tone & Safety),
-pass/fail results and insights.
+The goal of this project is to evaluate whether an AI agent reliably supports key Jobs to Be Done (JTBD), including emotional validation and behavioral activation, rather than simply producing fluent responses.
+What’s Included
+Defined academic support domain and constraints
+Two core JTBDs
+Synthetic dataset of realistic student scenarios
+Evaluation criteria (Correctness, Tone & Safety)
+PASS/FAIL results with aggregated metrics
+Key Insight
+Evaluation results show strong emotional safety but highlight gaps in action-oriented guidance, demonstrating why outcome-driven evaluation is critical for student-facing AI systems.
